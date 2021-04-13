@@ -4,10 +4,10 @@
 
 ## CYPRESS 사용법
 
-npm install cypress를 통해 설치
-node_modules/.bin/cypress open 을 통해 실행
-cypress/integration 안에 테스트 파일을 넣고 수행하면 됨.
-integration안에 파일명 형식은 [name].spec.js 이렇게 작성하면 됨
+- npm install cypress를 통해 설치  
+- node_modules/.bin/cypress open 을 통해 실행  
+- cypress/integration 안에 테스트 파일을 넣고 수행하면 됨.  
+- integration안에 파일명 형식은 [name].spec.js 이렇게 작성하면 됨  
 
 ```javascript
 describe("ui-counter", () => {
